@@ -15,6 +15,14 @@ The model's predictions are visualized in two output files:
 - `OUTPUT_END_result_pred.png`: Shows the model's predictions alongside the input images
 - `OUTPUT_END_result.png`: Displays the original test images
 
+### Original Test Images
+![Original Images](OUTPUT_END_result.png)
+
+### Prediction Results
+![Model Predictions](OUTPUT_END_result_pred.png)
+
+
+
 As shown in the prediction results:
 - The model successfully identifies digits like "1" and "9" with high confidence
 - The predictions are displayed above each image (e.g., "Pred: 1", "Pred: 9")
