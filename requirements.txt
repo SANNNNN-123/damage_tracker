@@ -1,0 +1,6 @@
+numpy
+scipy
+json
+PIL
+matplotlib
+scipy.misc
