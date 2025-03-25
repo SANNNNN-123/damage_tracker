@@ -1,11 +1,11 @@
-# Number Prediction Neural Network
+# Genshin Impact video game - Number Prediction Neural Network
 
-This project implements a neural network model to predict handwritten digits using deep learning techniques. The model is trained on a dataset of handwritten numbers and can predict digits from 0-9.
+This project implements a neural network model to predict digits using deep learning techniques. The model is trained on a dataset of numbers and can predict digits from 0-9.
 
 ## Project Overview
 
 The neural network is designed to:
-- Take video digit images as input
+- Take video digit and convert into images as input
 - Process them through convolutional layers
 - Output predictions for the digit classification (0-9)
 
@@ -44,27 +44,5 @@ The model was trained using:
 4. Cross-entropy loss function
 5. Multiple epochs to improve accuracy
 
-## Dependencies
 
-- TensorFlow/PyTorch
-- NumPy
-- OpenCV (for image processing)
-- Matplotlib (for visualization)
 
-## Usage
-
-To train the model:
-```python
-# Load and preprocess data
-# Train the model
-# Make predictions
-# Visualize results
-```
-
-## Results Visualization
-
-The project includes two key visualization files:
-- `OUTPUT_END_result_pred.png`: Shows model predictions
-- `OUTPUT_END_result.png`: Shows original test images
-
-These visualizations help in understanding the model's performance and accuracy in digit recognition tasks. 
